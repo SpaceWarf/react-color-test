@@ -15,6 +15,8 @@ class App extends React.Component {
         const { selectedColor } = this.state;
         return (
             <div className="App">
+                <h1>Try selecting colors very close to the bottom edge of the picker</h1>
+                <h3>Simple clicks and drag actions do not seem to work as expected</h3>
                 <SketchPicker
                     width={220}
                     color={selectedColor}

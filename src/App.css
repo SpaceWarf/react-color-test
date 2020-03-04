@@ -1,3 +1,7 @@
 .App {
   text-align: center;
 }
+
+.sketch-picker {
+  display: inline-block;
+}
